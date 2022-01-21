@@ -1,0 +1,62 @@
+button {
+    width: 3em;
+    height: 3em;
+    font-size:1.5em;
+    border:none;
+    border-radius: 0.5em;
+    margin: 0.3em;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(206, 206, 219);
+}
+
+.fundo {
+    background: rgb(114, 101, 101);
+    border-radius: 1em;
+
+}
+
+.style {
+    margin: 3em;
+}
+
+.color1 {
+    background: black;
+    color: rgb(131, 122, 110);
+}
+.color1:hover{
+    background: rgb(26, 22, 22);
+}
+.color2 {
+    background: rgb(255, 0, 0);
+}
+.color2:hover{
+    background: rgba(255, 0, 0, 0.671);
+}
+
+.alinhamento {
+    align-content: left;
+}
+
+.resutado {
+    color: black;
+    display:flex;
+    justify-content: right;
+    margin-right: 1em;
+    font-size: 4em;
+}
+
+h1 {
+    background-color: rgb(207, 200, 189);
+    margin:1em;
+    padding: 0.5em;
+    text-align: right;
+}
+
+body{
+    
+    background: repeat url(../componentes/imagens/wallhaven-4vymmm.jpg);
+    height: 100%;
+}
